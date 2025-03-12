@@ -16,6 +16,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          bg_color: "#1e1e1e"
           outputs: dist/github-contribution-grid-snake.svg
 
       - name: Configurar Git
