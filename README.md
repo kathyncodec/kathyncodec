@@ -1,4 +1,17 @@
-## Olá! Eu sou Katharyn Chaves 👋
+## 🌟 Olá! Eu sou a Katharyn 👋
+
+
+🚀 Programadora em formação | 🎯 QA Engineer | 💻 Estudante de C# e mais!
+
+Atualmente, trabalho garantindo a qualidade de software como QA, enquanto sigo expandindo meus conhecimentos em diversas linguagens de programação, com um foco especial em C#.
+Sou apaixonada por tecnologia, testes automatizados e o desafio constante de aprender algo novo todos os dias.
+
+📚 Estudando: C#, Selenium, testes automatizados, e tudo o que me levar a escrever códigos melhores.
+<br>🌱 Objetivo: Crescer como desenvolvedora e contribuir cada vez mais para a comunidade tech.
+
+🧩 "Cada bug encontrado é uma oportunidade de aprendizado!"
+
+
 
 
 <div align="center">
