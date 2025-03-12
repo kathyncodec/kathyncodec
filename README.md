@@ -1,3 +1,9 @@
+<div>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22CAAC&width=435&lines=%E2%98%86*%3A+.%EF%BD%A1.+Welcome+to+my+universe!+.%EF%BD%A1.%3A*%E2%98%86" alt="Typing SVG" /></a>
+
+  
+</div>
+
 ## 🌟 Olá! Eu sou a Katharyn 👋
 
 
