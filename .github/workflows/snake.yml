@@ -21,33 +21,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Modificar o SVG para fundo escuro e ajustar as cores dos quadradinhos
-        run: |
-          # Instalar o Python para manipulação do SVG
-          sudo apt-get update
-          sudo apt-get install python3 -y
-
-          # Modificar o fundo do arquivo SVG para preto e os quadradinhos de commit
-          python3 -c "
-import xml.etree.ElementTree as ET
-
-# Carregar o arquivo SVG
-tree = ET.parse('dist/github-contribution-grid-snake.svg')
-root = tree.getroot()
-
-# Adicionar fundo escuro ao SVG
-root.attrib['style'] = 'background-color: #1e1e1e;'
-
-# Modificar as cores dos quadradinhos de commit
-for rect in root.findall(".//{http://www.w3.org/2000/svg}rect"):
-    # Alterar a cor de preenchimento para branco, se a cor for verde (ou outra cor específica)
-    if 'fill' in rect.attrib and rect.attrib['fill'] == '#84b6eb':  # Cor verde claro padrão do commit
-        rect.attrib['fill'] = '#ffffff'  # Branco para contraste
-
-# Salvar o arquivo modificado
-tree.write('dist/github-contribution-grid-snake.svg')
-"
-
       - name: Configurar Git
         run: |
           git config --global user.email "actions@github.com"
@@ -58,5 +31,5 @@ tree.write('dist/github-contribution-grid-snake.svg')
           git checkout output
           cp dist/github-contribution-grid-snake.svg .
           git add github-contribution-grid-snake.svg
-          git commit -m "Atualizando animação da cobra com fundo escuro e quadradinhos brancos" || echo "Nada para commitar"
+          git commit -m "Atualizando animação da cobra" || echo "Nada para commitar"
           git push origin output
