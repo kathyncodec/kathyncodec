@@ -5,7 +5,7 @@
 ## 🌟 Olá! Eu sou Katharyn 👋
 
 
-🚀 Programadora em formação | 🎯 QA Engineer | 💻 Estudante de C# e mais!
+🚀 Programadora em formação | 🎯 QA Engineer | 💻 Estudante de C#
 
 Atualmente, trabalho garantindo a qualidade de software como QA, enquanto sigo expandindo meus conhecimentos em diversas linguagens de programação, com um foco especial em C#.
 Sou apaixonada por tecnologia, testes automatizados e o desafio constante de aprender algo novo todos os dias.
